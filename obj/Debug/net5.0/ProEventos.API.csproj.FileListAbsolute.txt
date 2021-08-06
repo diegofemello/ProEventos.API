@@ -1,0 +1,7 @@
+C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\obj\Debug\net5.0\ProEventos.API.csproj.AssemblyReference.cache
+C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\obj\Debug\net5.0\ProEventos.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\obj\Debug\net5.0\ProEventos.API.AssemblyInfoInputs.cache
+C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\obj\Debug\net5.0\ProEventos.API.AssemblyInfo.cs
+C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\obj\Debug\net5.0\ProEventos.API.csproj.CoreCompileInputs.cache
+C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\obj\Debug\net5.0\ProEventos.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\obj\Debug\net5.0\ProEventos.API.MvcApplicationPartsAssemblyInfo.cache
