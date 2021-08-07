@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProEventos.Domain;
-using ProEventos.Repository.Context;
+using ProEventos.Repository.Contexts;
 using ProEventos.Repository.Interfaces;
 using System.Linq;
 using System.Threading.Tasks;

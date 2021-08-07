@@ -1685,11 +1685,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Repository\\ProEventos.Repository.csproj",
+      "projectUniqueName": "c:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Repository\\ProEventos.Repository.csproj",
       "projectName": "ProEventos.Repository",
-      "projectPath": "C:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Repository\\ProEventos.Repository.csproj",
+      "projectPath": "c:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Repository\\ProEventos.Repository.csproj",
       "packagesPath": "C:\\Users\\dfmello\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Repository\\obj\\",
+      "outputPath": "c:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1709,8 +1709,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Domain\\ProEventos.Domain.csproj": {
-              "projectPath": "C:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Domain\\ProEventos.Domain.csproj"
+            "c:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Domain\\ProEventos.Domain.csproj": {
+              "projectPath": "c:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Domain\\ProEventos.Domain.csproj"
             }
           }
         }

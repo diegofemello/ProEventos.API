@@ -2,8 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ProEventos.Repository.Context;
+using ProEventos.Repository.Contexts;
 
 namespace ProEventos.Repository.Migrations
 {

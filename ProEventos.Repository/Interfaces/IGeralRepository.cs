@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProEventos.Repository.Interfaces
 {
-    interface IGeralRepository
+    public interface IGeralRepository
     {
         void Add<T>(T entity) where T : class;
         void Update<T>(T entity) where T : class;

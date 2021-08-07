@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4YZLpNL4J2tuM8mcJJsDw8CaytIpe6XjUhGhnnaIFKJEIvVWqJ58Pi/AWfQLSGDgam8VLZlI5ctDCKeiU1+2AA==",
+  "dgSpecHash": "A8tUvWM3BT5S/CP/ombe/BRyy5F6aIH+Bq82TYzsAF4imTkrt6MYKARHyKoFfMV8V8EowOVLRdOQJ0md1dMaTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Repository\\ProEventos.Repository.csproj",
+  "projectFilePath": "c:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Repository\\ProEventos.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dfmello\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\dfmello\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
