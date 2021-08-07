@@ -6,11 +6,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using ProEventos.API.Data;
+using ProEventos.Persistence;
 
 namespace ProEventos.API
 {
-  public class Startup
+    public class Startup
     {
         public Startup(IConfiguration configuration)
         {
@@ -26,7 +26,7 @@ namespace ProEventos.API
             var connection = Configuration.GetConnectionString("Default");
             var serverVersion = new MySqlServerVersion(new Version(8, 0, 25));
 
-            services.AddDbContext<DataContext>(
+            services.AddDbContext<ProEventosContext>(
             dbContextOptions => dbContextOptions
                 .UseMySql(connection, serverVersion)
             );
