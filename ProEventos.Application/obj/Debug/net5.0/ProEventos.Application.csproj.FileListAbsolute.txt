@@ -13,8 +13,8 @@ C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\ProEvento
 C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\ProEventos.Application\bin\Debug\net5.0\ProEventos.Domain.dll
 C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\ProEventos.Application\bin\Debug\net5.0\ProEventos.Domain.pdb
 C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.csproj.CopyComplete
-C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\ProEventos.Application\bin\Debug\net5.0\ProEventos.Persistence.dll
-C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\ProEventos.Application\bin\Debug\net5.0\ProEventos.Persistence.pdb
 C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\ProEventos.Application\bin\Debug\net5.0\ProEventos.Application.runtimeconfig.json
 C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\ProEventos.Application\bin\Debug\net5.0\ProEventos.Application.runtimeconfig.dev.json
 C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.genruntimeconfig.cache
+C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\ProEventos.Application\bin\Debug\net5.0\ProEventos.Repository.dll
+C:\Users\dfmello\Documents\Desenvolvimento\Csharp\EntityFramework\Back\ProEventos.Application\bin\Debug\net5.0\ProEventos.Repository.pdb

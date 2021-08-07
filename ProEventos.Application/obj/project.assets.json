@@ -526,7 +526,7 @@
           "bin/placeholder/ProEventos.Domain.dll": {}
         }
       },
-      "ProEventos.Persistence/1.0.0": {
+      "ProEventos.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -538,10 +538,10 @@
           "ProEventos.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ProEventos.Persistence.dll": {}
+          "bin/placeholder/ProEventos.Repository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ProEventos.Persistence.dll": {}
+          "bin/placeholder/ProEventos.Repository.dll": {}
         }
       }
     }
@@ -1685,16 +1685,16 @@
       "path": "../ProEventos.Domain/ProEventos.Domain.csproj",
       "msbuildProject": "../ProEventos.Domain/ProEventos.Domain.csproj"
     },
-    "ProEventos.Persistence/1.0.0": {
+    "ProEventos.Repository/1.0.0": {
       "type": "project",
-      "path": "../ProEventos.Persistence/ProEventos.Persistence.csproj",
-      "msbuildProject": "../ProEventos.Persistence/ProEventos.Persistence.csproj"
+      "path": "../ProEventos.Repository/ProEventos.Repository.csproj",
+      "msbuildProject": "../ProEventos.Repository/ProEventos.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "ProEventos.Domain >= 1.0.0",
-      "ProEventos.Persistence >= 1.0.0"
+      "ProEventos.Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1731,8 +1731,8 @@
             "C:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Domain\\ProEventos.Domain.csproj": {
               "projectPath": "C:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Domain\\ProEventos.Domain.csproj"
             },
-            "C:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Persistence\\ProEventos.Persistence.csproj": {
-              "projectPath": "C:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Persistence\\ProEventos.Persistence.csproj"
+            "C:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Repository\\ProEventos.Repository.csproj": {
+              "projectPath": "C:\\Users\\dfmello\\Documents\\Desenvolvimento\\Csharp\\EntityFramework\\Back\\ProEventos.Repository\\ProEventos.Repository.csproj"
             }
           }
         }

@@ -9,7 +9,7 @@
       "ProEventos.Application/1.0.0": {
         "dependencies": {
           "ProEventos.Domain": "1.0.0",
-          "ProEventos.Persistence": "1.0.0"
+          "ProEventos.Repository": "1.0.0"
         },
         "runtime": {
           "ProEventos.Application.dll": {}
@@ -421,7 +421,7 @@
           "ProEventos.Domain.dll": {}
         }
       },
-      "ProEventos.Persistence/1.0.0": {
+      "ProEventos.Repository/1.0.0": {
         "dependencies": {
           "EntityFramework": "6.4.4",
           "Microsoft.EntityFrameworkCore": "5.0.8",
@@ -431,7 +431,7 @@
           "ProEventos.Domain": "1.0.0"
         },
         "runtime": {
-          "ProEventos.Persistence.dll": {}
+          "ProEventos.Repository.dll": {}
         }
       }
     }
@@ -720,7 +720,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ProEventos.Persistence/1.0.0": {
+    "ProEventos.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
