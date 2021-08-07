@@ -1,16 +1,18 @@
-﻿using ProEventos.Repository.Contexts;
+﻿using Microsoft.EntityFrameworkCore;
+using ProEventos.Repository.Contexts;
 using ProEventos.Repository.Interfaces;
 using System.Threading.Tasks;
 
 namespace ProEventos.Repository
 {
-    class GeralRepository : IGeralRepository
+    public class GeralRepository : IGeralRepository
     {
         private readonly ProEventosContext _context;
 
         public GeralRepository(ProEventosContext context)
         {
             _context = context;
+            _context.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
 
         public void Add<T>(T entity) where T : class

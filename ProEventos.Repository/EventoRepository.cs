@@ -7,13 +7,14 @@ using System.Threading.Tasks;
 
 namespace ProEventos.Repository
 {
-    class EventoRepository : IEventoRepository
+    public class EventoRepository : IEventoRepository
     {
         private readonly ProEventosContext _context;
 
         public EventoRepository(ProEventosContext context)
         {
             _context = context;
+            _context.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
 
         public async Task<Evento[]> GetAllEventosAsync(bool includePalestrantes = false)
@@ -29,7 +30,7 @@ namespace ProEventos.Repository
                     .ThenInclude(pe => pe.Palestrante);
             }
 
-            query = query.OrderBy(e => e.Id);
+            query = query.AsNoTracking().OrderBy(e => e.Id);
 
             return await query.ToArrayAsync();
         }
@@ -46,7 +47,7 @@ namespace ProEventos.Repository
                     .ThenInclude(pe => pe.Palestrante);
             }
 
-            query = query.OrderBy(e => e.Id)
+            query = query.AsNoTracking().OrderBy(e => e.Id)
                 .Where(e => e.Tema.ToLower()
                 .Contains(tema.ToLower()));
 
@@ -65,7 +66,7 @@ namespace ProEventos.Repository
                     .ThenInclude(pe => pe.Palestrante);
             }
 
-            query = query.OrderBy(e => e.Id)
+            query = query.AsNoTracking().OrderBy(e => e.Id)
                 .Where(e => e.Id == eventoId);
 
             return await query.FirstOrDefaultAsync();

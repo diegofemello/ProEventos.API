@@ -1,4 +1,5 @@
 using System;
+using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -6,7 +7,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using ProEventos.Repository;
 using ProEventos.Repository.Contexts;
+using ProEventos.Repository.Interfaces;
+using ProEventos.Service;
+using ProEventos.Sevice.Interfaces;
 
 namespace ProEventos.API
 {
@@ -31,7 +36,15 @@ namespace ProEventos.API
                 .UseMySql(connection, serverVersion)
             );
 
-            services.AddControllers();
+            services.AddControllers()
+                .AddNewtonsoftJson(x => x.SerializerSettings
+                    .ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+
+            services.AddScoped<IEventoService, EventoService>();
+            services.AddScoped<IGeralRepository, GeralRepository>();
+            services.AddScoped<IEventoRepository, EventoRepository>();
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ProEventos.API", Version = "v1" });

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProEventos.Service
 {
-    class EventoService : IEventoService
+    public class EventoService : IEventoService
     {
         private readonly IGeralRepository _geralRepository;
         private readonly IEventoRepository _eventoRepository;
