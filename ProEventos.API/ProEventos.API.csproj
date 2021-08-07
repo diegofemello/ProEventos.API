@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProEventos.Repository\ProEventos.Repository.csproj" />
+    <ProjectReference Include="..\ProEventos.Service\ProEventos.Service.csproj" />
   </ItemGroup>
 
 </Project>
