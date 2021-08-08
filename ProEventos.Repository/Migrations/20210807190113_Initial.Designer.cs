@@ -9,7 +9,7 @@ using ProEventos.Repository.Contexts;
 namespace ProEventos.Repository.Migrations
 {
     [DbContext(typeof(ProEventosContext))]
-    [Migration("20210807034220_Initial")]
+    [Migration("20210807190113_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -71,6 +71,9 @@ namespace ProEventos.Repository.Migrations
 
                     b.Property<decimal>("Preco")
                         .HasColumnType("decimal(65,30)");
+
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

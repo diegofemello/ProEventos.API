@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ProEventos.API.DTO;
 using ProEventos.Domain;
 using ProEventos.Sevice.Interfaces;
 
@@ -25,6 +27,7 @@ namespace ProEventos.API.Controllers
             {
                 var eventos = await _eventoService.GetAllEventosAsync(true);
                 if (eventos == null) return NotFound("Nenhum evento encontrado");
+
                 return Ok(eventos);
             }
             catch (Exception ex)

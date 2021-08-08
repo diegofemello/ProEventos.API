@@ -70,6 +70,7 @@ namespace ProEventos.Repository.Migrations
                     Preco = table.Column<decimal>(type: "decimal(65,30)", nullable: false),
                     DataInicio = table.Column<DateTime>(type: "datetime(6)", nullable: true),
                     DataFim = table.Column<DateTime>(type: "datetime(6)", nullable: true),
+                    Quantidade = table.Column<int>(type: "int", nullable: false),
                     EventoId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProEventos.Repository.Contexts;
 
 namespace ProEventos.Repository.Migrations
@@ -68,6 +69,9 @@ namespace ProEventos.Repository.Migrations
 
                     b.Property<decimal>("Preco")
                         .HasColumnType("decimal(65,30)");
+
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

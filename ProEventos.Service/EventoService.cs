@@ -62,9 +62,9 @@ namespace ProEventos.Service
             try
             {
                 var evento = await _eventoRepository.GetEventoByIdAsync(eventoId, false);
-                if (evento == null) throw new Exception("Evento para delete não encontrado!");
+                if (evento == null) throw new Exception("Não existe nenhum evento com o ID informado");
 
-                _geralRepository.Delete<Evento>(evento);
+                _geralRepository.Delete(evento);
 
                 return await _geralRepository.SaveChangesAsync();
             }
