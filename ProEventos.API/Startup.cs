@@ -1,5 +1,4 @@
 using System;
-using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -11,7 +10,7 @@ using ProEventos.Repository;
 using ProEventos.Repository.Contexts;
 using ProEventos.Repository.Interfaces;
 using ProEventos.Service;
-using ProEventos.Sevice.Interfaces;
+using ProEventos.Service.Interfaces;
 
 namespace ProEventos.API
 {
@@ -39,6 +38,8 @@ namespace ProEventos.API
             services.AddControllers()
                 .AddNewtonsoftJson(x => x.SerializerSettings
                     .ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddScoped<IEventoService, EventoService>();
             services.AddScoped<IGeralRepository, GeralRepository>();
